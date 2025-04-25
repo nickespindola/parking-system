@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Controle de Estacionamento</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Controle de Estacionamento</h1>
+    <nav>
+      <ul>
+        <li><a href="cadastro.html">Cadastro de Vaga</a></li>
+        <li><a href="listar.html">Lista de Vagas</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="introducao">
+    <h2>Bem-vindo ao Sistema de Controle de Estacionamento!</h2>
+    <p class="content">Este sistema permite que você cadastre, visualize e remova as vagas de estacionamento do seu
+      condomínio de
+      forma simples e eficiente.</p>
+  </section>
+
+  <div id="conteudo-principal">
+    <section id="acoes-rapidas">
+      <h3>Ações Rápidas</h3>
+      <div>
+        <button onclick="window.location.href='cadastro.html'">Cadastrar Vaga</button>
+        <button onclick="window.location.href='listar.html'">Listar Vagas</button>
+      </div>
+    </section>
+
+    <section id="ultimas-vagas">
+      <h3>Últimas Vagas Cadastradas</h3>
+      <ul id="lista-ultimas-vagas">
+      </ul>
+    </section>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>

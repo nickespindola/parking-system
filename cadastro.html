@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Vaga</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Cadastro de Vaga</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Página Inicial</a></li>
+        <li><a href="listar.html">Lista de Vagas</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <form id="formCadastro">
+    <h2>Cadastro de Vaga</h2>
+    <div id="form-content">
+      <div>
+        <label for="placa">Placa do Veículo:</label>
+        <input type="text" id="placa" maxlength="7" required>
+      </div>
+
+      <div>
+        <label for="nome">Nome do Proprietário:</label>
+        <input type="text" id="nome" required>
+      </div>
+
+      <div>
+        <label for="apartamento">Número do Apartamento:</label>
+        <input type="text" id="apartamento" required>
+      </div>
+
+      <div>
+        <label for="bloco">Bloco do Apartamento:</label>
+        <input type="text" id="bloco" required>
+      </div>
+
+      <div>
+        <label for="modelo">Modelo do Veículo:</label>
+        <input type="text" id="modelo" required>
+      </div>
+
+      <div>
+        <label for="cor">Cor do Veículo:</label>
+        <input type="text" id="cor" required>
+      </div>
+
+      <div>
+        <label for="vaga">Número da Vaga:</label>
+        <input type="text" id="vaga" required>
+      </div>
+      <button type="submit">Salvar</button>
+    </div>
+
+  </form>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
